@@ -1,0 +1,8 @@
+version: '3.3'
+services: 
+    nest-api:
+        image: testapi
+        restart: always
+        container_name: testapi
+        ports: 
+            - '300:3000'
